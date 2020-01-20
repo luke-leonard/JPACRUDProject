@@ -45,5 +45,7 @@ class DogTest {
 	@Test
 	public void test1() {
 		assertEquals("Spots",dog.getName());
+		assertEquals("Dalmation",dog.getBreed());
+		assertEquals("Saves people from buildings",dog.getDescription());
 	}
 }

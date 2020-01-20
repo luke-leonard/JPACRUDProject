@@ -1,5 +1,7 @@
 package com.skilldistillery.jpacrudproject.data;
 
+import java.util.List;
+
 import com.skilldistillery.jpacrudproject.entities.Dog;
 
 public interface DogDAO {

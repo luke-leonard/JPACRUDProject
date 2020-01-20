@@ -1,5 +1,7 @@
 package com.skilldistillery.jpacrudproject.data;
 
+import java.util.List;
+
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.transaction.Transactional;
@@ -48,4 +50,5 @@ public class DogDAOJpaImpl implements DogDAO {
 		dog.setId(0);
 		return dog;
 	}
+
 }
